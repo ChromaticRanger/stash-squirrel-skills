@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "stash-squirrel": {
+      "type": "http",
+      "url": "https://stash-squirrel.com/mcp"
+    }
+  }
+}

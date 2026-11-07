@@ -1,0 +1,21 @@
+{
+  "name": "stash-squirrel",
+  "description": "Connect Claude to your Stash Squirrel todos, notes and bookmarks, with skills for a daily review, weekly planning, capturing notes into items, and tidying bookmarks.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Stash Squirrel",
+    "url": "https://stash-squirrel.com"
+  },
+  "homepage": "https://stash-squirrel.com/developers",
+  "repository": "https://github.com/ChromaticRanger/stash-squirrel-skills",
+  "license": "MIT",
+  "keywords": [
+    "todos",
+    "bookmarks",
+    "notes",
+    "productivity",
+    "mcp"
+  ],
+  "privacyPolicyUrl": "https://stash-squirrel.com/privacy",
+  "icon": ".claude-plugin/icon.png"
+}

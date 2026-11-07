@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "stash-squirrel",
+  "description": "Stash Squirrel for Claude Code: the MCP server plus skills for reviewing, planning and capturing todos, notes and bookmarks.",
+  "owner": {
+    "name": "Stash Squirrel",
+    "url": "https://stash-squirrel.com"
+  },
+  "plugins": [
+    {
+      "name": "stash-squirrel",
+      "description": "Connect Claude to your Stash Squirrel todos, notes and bookmarks, with skills for a daily review, weekly planning, capturing notes into items, and tidying bookmarks.",
+      "source": "./plugins/stash-squirrel",
+      "category": "productivity",
+      "homepage": "https://stash-squirrel.com/developers"
+    }
+  ]
+}
