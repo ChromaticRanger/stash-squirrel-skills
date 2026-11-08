@@ -1,7 +1,7 @@
 {
   "name": "stash-squirrel",
   "description": "Connect Claude to your Stash Squirrel todos, notes and bookmarks, with skills for a daily review, weekly planning, capturing notes into items, and tidying bookmarks.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Stash Squirrel",
     "url": "https://stash-squirrel.com"

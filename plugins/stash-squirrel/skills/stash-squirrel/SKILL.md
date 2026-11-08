@@ -29,6 +29,7 @@ If the tools that change things are missing, the connection is **read-only**. Sa
 - `priority` is `low`, `medium` (default) or `high`. `status` is `open` or `completed`.
 - `repeat` is `{ "every": 7, "unit": "day" }` (weekly) or `{ "every": 1, "unit": "month" }`. Completing a repeating todo creates the next one.
 - Every change returns the item as it now is. Don't read it back.
+- Over MCP, `list_items`, `search` and `calendar` return **summaries**: fields that aren't set are left out (no `due` means no due date; no `shared_list` means it's the person's own), and long descriptions are cut short, marked `description_truncated: true`. Call `get_item` when you need the whole item, for example before turning a note into todos. If `has_more` is true and you need the rest, call again with a higher `limit`.
 
 ## Dates and time zones
 
